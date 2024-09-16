@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="https://cdn-hoverme.netlify.app/hoverme/1.0.4/hoverme.css">
+      <link rel="stylesheet" href="hovermaster/css/hover.css">
+      <link href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" rel="stylesheet">
+      <title>I.E. Nuestra Señora de las Mercedes</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                  <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes" id="logo">I.E Nuestra Señora de las Mercedes
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Nosotros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Bienvenida
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Fundación del colegio
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Historia
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Mision y visión
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Directivos
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Campus
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Infraestructura
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Logros
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Niveles <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Primaria
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> Secundaria
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="exitos.html" class="nav__link">Exitos</a></li>
+
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Vida estudiantil <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Arte
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Deporte
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Tecnologia
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Bienestar y salud
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  
+                  <li><a href="#" class="nav__link">Admision</a></li>
+
+
+                  <li><a href="#" class="nav__link">Aula virtual</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <!-- carrusel -->
+      <div
+      id="carouselExampleCaptions"
+      class="relative"
+      data-twe-carousel-init
+      data-twe-ride="carousel">
+      <!--Carousel indicators-->
+      <div
+        class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+        data-twe-carousel-indicators>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="0"
+          data-twe-carousel-active
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-current="true"
+          aria-label="Slide 1"></button>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="1"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 2"></button>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="2"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 3"></button>
+      </div>
+    
+      <!--Carousel items-->
+      <div
+        class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+        <!--First item-->
+        <div
+          class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-active
+          data-twe-carousel-item
+          style="backface-visibility: hidden">
+          <img
+            src="img/IMG_9366.jpg"
+            class="block w-full"
+            alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block contenido-carrusel">
+            <p class="text-xl hvr-grow">Un colegio que promueve el desarrollo del ser y del saber</p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+        <!--Second item-->
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-item
+          style="backface-visibility: hidden">
+          <img
+            src="img/IMG_9400.jpg"
+            class="block w-full"
+            alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block contenido-carrusel">
+            <p class="text-xl hvr-grow">Una educación vivencial, afectuosa y firme a la vez</p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+        <!--Third item-->
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-item
+          style="backface-visibility: hidden">
+          <img
+            src="img/IMG_9403.jpg"
+            class="block w-full"
+            alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block contenido-carrusel">
+            <p class="text-xl hvr-grow">Alentamos a nuestros alumnos a mantener su curiosidad y deseos de aprender</p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <!--Carousel controls - prev item-->
+      <button
+        class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button"
+        data-twe-target="#carouselExampleCaptions"
+        data-twe-slide="prev">
+        <span class="inline-block h-8 w-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Previous</span
+        >
+      </button>
+      <!--Carousel controls - next item-->
+      <button
+        class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button"
+        data-twe-target="#carouselExampleCaptions"
+        data-twe-slide="next">
+        <span class="inline-block h-8 w-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Next</span
+        >
+      </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/js/tw-elements.umd.min.js"></script>
+
+      <div class="contenedor">
+
+         <section class="section1">
+             <div class="contenedorimagen">
+                <img src="img/Imagen de WhatsApp 2024-09-05 a las 11.59.11_ffc7f647.jpg" alt="" class="hvr-grow">
+             </div>
+     
+             <div class="section1-1 e1">
+                 
+                 <div class="infosection1 i1 e1">
+                     <i class="fa-solid fa-book"></i>
+                     <div class="infosection1-contenido">
+     
+                         <h3>Viajes Educativos</h3>
+                         <p>La educación tiene que ser en contacto con el medio ambiente, con la naturaleza.</p>
+                         <a href="#" class="vermas">Vér mas</a>
+                     </div>
+                 </div>
+             </div>
+             
+         </section>
+         <section class="section1">
+             <div class="contenedorimagen">
+
+                <img src="img/Imagen de WhatsApp 2024-09-05 a las 11.59.12_82b6a388.jpg" alt="" class="hvr-grow">
+             </div>
+     
+             <div class="section1-1 e2">
+                 
+                 <div class="infosection1 i2 e2">
+                     <i class="fa-solid fa-book"></i>
+                     <div class="infosection1-contenido">
+     
+                         <h3>Arte y Cultura</h3>
+                         <p>Todos los años, en el aniversario del colegio, mes de octubre, se logra la gran conexión con el pueblo, a través del arte, las danzas y el folklore.</p>
+                         <a href="#" class="vermas">Vér mas</a>
+                     </div>
+                 </div>
+             </div>
+             
+         </section>
+         <section class="section1">
+             <div class="contenedorimagen">
+                <img src="img/Imagen de WhatsApp 2024-09-05 a las 11.59.13_d3e80c1a.jpg" alt="" class="hvr-grow">
+             </div>
+     
+             <div class="section1-1 e3">
+                 
+                 <div class="infosection1 e3">
+                     <i class="fa-solid fa-book"></i>
+                     <div class="infosection1-contenido">
+     
+                         <h3>Campeones Regionales</h3>
+                         <p>Nuestra comunidad ha cosechado diversos premios y reconocimientos a nivel regional.</p>
+                         <a href="#" class="vermas">Vér mas</a>
+                     </div>
+                 </div>
+             </div>
+             
+         </section>
+     </div>
+     
+     <section class="contador">
+         <div class="wrapper">
+            <div class="container-contador">
+               <i class="fa-solid fa-school"></i>
+               <span class="num" data-val="100">000</span>
+               <span class="text">Aulas</span>
+            </div>
+            <div class="container-contador">
+               <i class="fa-solid fa-chalkboard-user"></i>
+               <span class="num" data-val="80">000</span>
+               <span class="text">Docentes</span>
+            </div>
+            <div class="container-contador">
+               <i class="fa-solid fa-user"></i>
+               <span class="num" data-val="2000">000</span>
+               <span class="text">Estudiantes</span>
+            </div>
+            <div class="container-contador">
+               <i class="fa-solid fa-face-smile"></i>
+               <span class="num" data-val="500">000</span>
+               <span class="text">Cachimbos</span>
+            </div>
+         </div>
+      </section>
+      <script src="contador.js"></script>
+
+      
+
+      <footer>
+         <div class="footer">
+
+            <div class="logo-footer">
+               <a href="#">
+                     <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes">
+               </a><br>
+               <h3>I.E NUESTRA SEÑORA DE LAS MERCEDES</h3>
+               <p>Ofrecemos un modelo de enseñanza humanista que prioriza la formación integral de la persona, y el desarrollo de su capacidad crítica y de libre expresión, en un clima de calidez y confianza.
+            </div>
+            
+            <div class="nosotros">
+               <h3>ENLACES DE INTERES</h3>
+               <ul>
+                     <li>NOSOTROS
+                        <ul>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Misión y visión</a></li>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Directivos</a></li>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Campus</a></li>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Noticias</a></li>  
+                        </ul>   
+                     </li>
+                     <br>
+                     <li>NIVELES
+                        <ul>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Primaria</a></li>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Secundaria</a></li> 
+                        </ul>   
+                     </li>
+                     <br>
+                     <li>TESTIMONIOS Y OPINIONES
+                        <ul>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Testimonios</a></li>
+                           <li><a href=""><i class="fa-solid fa-caret-right"></i>  Opiniones</a></li> 
+                        </ul>   
+                     </li>   
+               </ul>
+            </div>
+            <div class="contactos">
+               <h3>CONTACTOS</h3>
+               <ul>
+                     <li><i class="fa-solid fa-envelope"></i> Email: mercedes@hotmail.com</li>
+                     <li><i class="fa-solid fa-phone"></i>  Teléfono: 056 731412</li>
+                     <li><i class="fa-solid fa-clock"></i>  Atención: Lunes a Viernes 7am a 9pm</li>
+                     <li><i class="fa-solid fa-location-dot"></i>    Dirección: Av. José Matias Manzanilla, Ica 11002 <br> <br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.2072253606284!2d-75.73884409079477!3d-14.064937136303444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bfbc671b1f%3A0xda311b6af4a8de3d!2sColegio%20Ntra.%20Sra.%20de%20las%20Mercedes%2C%20Av.%20Jos%C3%A9%20Matias%20Manzanilla%2C%20Ica%2011002!5e0!3m2!1ses-419!2spe!4v1725553880974!5m2!1ses-419!2spe"></iframe>   
+                     </li>
+                     <br><br>
+                     <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                     </div>
+               </ul>
+            </div>
+         </div>
+         <br>
+         <hr>
+         <br>
+         <div class="copyright">
+            <span>2024 © Todos los derechos reservados. Diseño y desarrollo web FIS UNICA
+
+            </span>
+         </div>
+         
+      </footer>
+   </body>
+
+   
+</html>
