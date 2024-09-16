@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="https://cdn-hoverme.netlify.app/hoverme/1.0.4/hoverme.css">
+      <link rel="stylesheet" href="hovermaster/css/hover.css">
+      <link href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" rel="stylesheet">
+      <title>I.E. Nuestra Señora de las Mercedes</title>
+   </head>
+   <style>
+      /* Asegúrate de que el contenedor del texto esté en posición absoluta para poder alinearlo */
+      .propuesta-banner {
+         position: relative; /* Asegura que el texto se posicione en relación a este contenedor */
+         width: 100%; /* Ajusta al tamaño del contenedor o de la imagen */
+         height: 400px; /* Ajusta al tamaño del contenedor o de la imagen */
+      }
+
+      .carousel-caption {
+         position: absolute;
+         top: 50%; /* Centra verticalmente */
+         left: 50%; /* Centra horizontalmente */
+         transform: translate(-50%, -50%); /* Ajusta la posición para que el centro del texto esté en el centro de la imagen */
+         padding: 20px; /* Espaciado alrededor del texto */
+         color: white; /* Color del texto */
+         text-align: center; /* Centra el texto dentro del contenedor */
+         box-sizing: border-box; /* Incluye el padding en el ancho total */
+         width: 100%; /* O ajusta a un ancho específico si es necesario */
+         /* Opcional: Añadir fondo semitransparente para mejor legibilidad */
+      }
+
+
+  </style>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                  <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes" id="logo">I.E Nuestra Señora de las Mercedes
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Formación y Actividades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="propuesta.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Propuesta Educativa
+                           </a>
+                        </li>
+                        <li>
+                           <a href="vidaestudiantil.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Vida Estudiantil
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="logros.html" class="nav__link">Logros</a></li>
+                  <li><a href="directivos.html" class="nav__link">Directivos</a></li>
+                  <li><a href="admision.html" class="nav__link">Admision</a></li>
+                  <li><a href="#" class="nav__link">Aula Virtual</a></li>
+
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <script src="assets/js/main.js"></script>
+
+      <div id="carouselExampleSlidesOnly" class="relative" data-twe-carousel-init data-twe-ride="carousel">
+         <!-- Carousel items -->
+         <div class="relative overflow-hidden after:clear-both after:block after:content-['']">
+             <!-- First item -->
+             <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none propuesta-banner" data-twe-carousel-item data-twe-carousel-active>
+                 <img src="img/nosotros.jpg" class="block w-full" alt="Propuesta Academica" />
+                 <!-- Text overlay -->
+                 <div class="carousel-caption">
+                     <h1>Nosotros</h1>
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+
+     <section id="mision-vision" class="content-section">
+      <div class="text">
+          <h2 class="jj">Misión y Visión</h2>
+          <p>Nuestra misión es formar estudiantes íntegros, responsables y con una sólida base académica, preparados para enfrentar los retos del mundo actual. Fomentamos el desarrollo de competencias tanto académicas como emocionales, promoviendo valores de respeto, responsabilidad, solidaridad y trabajo en equipo. Aspiramos a ser un espacio donde cada estudiante descubra su potencial y adquiera las herramientas necesarias para contribuir positivamente a la sociedad. Nuestra visión es ser una institución educativa de excelencia, reconocida por la calidad de sus procesos formativos y por el impacto positivo en la comunidad. Buscamos formar ciudadanos comprometidos, innovadores y preparados para afrontar los desafíos de un mundo en constante cambio, fomentando el desarrollo de habilidades tecnológicas, creativas y sociales que les permitan destacar en sus futuros académicos y profesionales.</p>
+      </div>
+      <div class="image">
+          <img src="img/mision.jpg" alt="Imagen de Misión y Visión">
+      </div>
+     </section>
+
+    <section id="historia" class="content-section">
+      <div class="image">
+          <img src="img/historia.jpg" alt="Imagen de Historia del Colegio">
+      </div>
+      <div class="text">
+          <h2 class="jj">Historia</h2>
+          <p>La Institución Educativa Emblemática femenina de la Región Ica “Nuestra Señora de las Mercedes” 
+              se remonta al año 1948 con el nombre de “Hogar Campesino”, para luego en el año 1949 convertirse
+               en el Instituto Industrial Femenino N°19 “Nuestra Señora de las Mercedes”, funcionando así
+                hasta el año 1977, en que por disposición de la RD.N°2173 de fecha 16 de mayo de ese año,
+                 se le consideró como un Centro Educativo Modelo TIPO “C”, hasta el año 1979, en que vuelve
+                  a denominarse Centro Educativo “Nuestra Señora de las Mercedes”. Posteriormente 
+                  su denominación cambia a Institución Educativa “Nuestra Señora de las Mercedes”, actualmente comparte local con el CEBA “Nuestra Señora de las Mercedes”</p>
+      </div>
+    </section>
+
+     <section id="festividades-tradiciones" class="content-section">
+      <div class="text">
+          <h2 class="jj">Festividades y Tradiciones</h2>
+          <p>A lo largo del año, celebramos diversas festividades que refuerzan la identidad cultural y los valores de nuestra comunidad educativa. Entre las más destacadas se encuentra el Día del Logro, una fecha en la que reconocemos y celebramos los avances y éxitos académicos de nuestros estudiantes, fomentando el esfuerzo, la dedicación y el compromiso con su formación. Además, rendimos homenaje a nuestra patrona en el Día de nuestra Virgencita, una celebración especial que une a estudiantes, docentes y familias en un acto de fe, tradición y agradecimiento. Estas festividades no solo fortalecen el sentido de pertenencia, sino que también promueven la cohesión y la unidad dentro de nuestra institución.</p>
+      </div>
+      <div class="image">
+          <img src="img/festividades.jpg" alt="Imagen de Festividades y Tradiciones">
+      </div>
+     </section>
+     <footer>
+        <div class="containerfooter">
+            <div class="row">
+                <div class="col" id="company">
+                    <img src="img/mercedessinfondo.png" alt="logo">
+                    I.E. Nuestra Señora de las Mercedes
+                    <p>
+                        Ofrecemos un modelo de enseñanza humanista que prioriza la formación integral de la persona, 
+                        y el desarrollo de su capacidad crítica y de libre expresión, en un clima de calidez y confianza.
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+  
+                <div class="col" id="services">
+                    <a href="nosotros.html"><h4>Nosotros</h4></a>
+                    <a href="nosotros.html">Misión y visión</a>
+                    <a href="nosotros.html">Festividades y tradiciones</a>
+                    <a href="directivos.html">Directivos</a>
+                    <a href="vidaestudiantil.html">Infraestructura</a>
+                </div>
+  
+                <div class="col" id="Useful-links">
+                    <h4><b>Formación y Actividades</b></h4><br>
+                    <a href="propuesta.html">Propuesta Educativa</a>
+                    <a href="vidaestudiantil.html">Vida Estudiantil</a>
+                    <a href="nosotros.html">Misión y visión</a>
+                </div>
+  
+                <div class="col" id="Contact"><br><br><br>
+                    <h4>Contactos</h4><br>
+                    <div class="contact-details">
+                        <i class="fa fa-location"></i>
+                        <p>Dirección: Av. José Matias Manzanilla, Ica 11002</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa fa-phone"></i>
+                        <p>Teléfono: 056 731412</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa fa-paper-plane"></i>
+                        <p>Email:mercedes@hotmail.com</p>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+ <!--  <section id="directivos" class="content-section">
+      <div><h2 class="jj">Directivos</h2>
+          <div class="directivos-grid">
+              <div class="directora">
+                  <img src="img/persona.jpg" alt="Director 1">
+                  <p>Mg. Mendoza Anchante, Olga Celinda</p>
+              </div>
+              <div class="SDFG_IP">
+                  <img src="img/persona.jpg" alt="Director 2">
+                  <p>Mg. Vilca Aguado, Rocío</p>
+              </div>
+              <div  class="SDFG_IIP">
+                  <img src="img/persona.jpg" alt="">
+                  <P>Dra. Alvaro Cornejo, Yaqueline</P>
+
+              </div>
+              <div class="SDFG_IIIP">
+                  <img src="img/persona.jpg" alt="">
+                  <P>Mg. Capcha Flores, Margarita</P>
+              </div>
+              <div class="SDFG_IVP">
+                  <img src="img/persona.jpg" alt="">
+                  <P>Mg. Jauregui Pazos, Geraldine</P>
+              </div>
+              <div class="SDFG_VP">
+                  <img src="img/persona.jpg" alt="">
+                  <P>Dr. Bendezú Loza, Froebel</P>
+              
+              </div>
+              <div class="SD_ADMIN">
+                  <img src="img/persona.jpg" alt="">
+                  <P>Dra. Salcedo Hernández, Mónica</P>
+              </div>
+              <div class="SD_EBA">
+                  <img src="img/persona.jpg" alt="">
+                  <p>Dra. Herrea Palomino, Luz</p>
+              </div>
+      </div>
+      </div>
+  </section> -->
+
+  <!-- <section id="infraestructura" class="content-section">
+      <div><h2 class="jj">Infraestructura</h2>
+          <div class="infraestructura-grid">
+              <div class="infra1">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 1">
+                  <p>Aula de Computación</p>
+              </div>
+              <div class="infra2">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 2">
+                  <p>Aula de Innovación</p>
+              </div>
+              <div class="infra3">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 3">
+                  <p>Laboratorio de Química</p>
+              </div>
+              <div class="infra4">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 4">
+                  <p>Laboratorio de Física</p>
+              </div>
+              <div class="infra5">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 5">
+                  <p>Laboratorio de Biología</p>
+              </div>
+              <div class="infra6">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 6">
+                  <p>Taller de Industria Alimentaria</p>
+              </div>
+              <div class="infra7">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 7">
+                  <p>Taller de Cosmetología</p>
+              </div>
+              <div class="infra8">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 8">
+                  <p>Taller de Industria del Vestido</p>
+              </div>
+              <div class="infra9">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 9">
+                  <P>Espacio dental</P>
+              </div>
+              <div class="infra10">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 10">
+                  <p>Subdirección</p>
+              </div>
+              <div class="infra11">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 11">
+                  <p>Dirección</p>
+              </div>
+              <div class="infra12">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 12">
+                  <p>Auditorio</p>
+              </div>
+              <div class="infra13">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 13">
+                  <p>Radio Mercedina</p>
+              </div>
+              <div class="infra14">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 14">
+                  <p>Pscología</p>
+              </div>
+              <div class="infra15">
+                  <img src="img/infraestructura.jpg" alt="Infraestructura 15">
+                  <p>Kiosco</p>
+              </div>
+
+          </div>
+      </div>
+  </section> -->
+    
+   </body>
+</html>

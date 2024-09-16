@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn-hoverme.netlify.app/hoverme/1.0.4/hoverme.css">
+    <link rel="stylesheet" href="hovermaster/css/hover.css">
+    <link href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" rel="stylesheet">
+    <title>I.E. Nuestra Señora de las Mercedes</title>
+    <style>
+        /* Asegúrate de que el contenedor del texto esté en posición absoluta para poder alinearlo */
+        .propuesta-banner {
+            position: relative; /* Asegura que el texto se posicione en relación a este contenedor */
+            width: 100%; /* Ajusta al tamaño del contenedor o de la imagen */
+            height: 400px; /* Ajusta al tamaño del contenedor o de la imagen */
+        }
+
+        .carousel-caption {
+            position: absolute;
+            top: 50%; /* Centra verticalmente */
+            left: 50%; /* Centra horizontalmente */
+            transform: translate(-50%, -50%); /* Ajusta la posición para que el centro del texto esté en el centro de la imagen */
+            padding: 20px; /* Espaciado alrededor del texto */
+            color: white; /* Color del texto */
+            text-align: center; /* Centra el texto dentro del contenedor */
+            box-sizing: border-box; /* Incluye el padding en el ancho total */
+            width: 100%; /* O ajusta a un ancho específico si es necesario */
+            /* Opcional: Añadir fondo semitransparente para mejor legibilidad */
+        }
+
+        /* Estilos adicionales para las cartas */
+        .card {
+            border-radius: 0.5rem;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-footer {
+            padding: 1rem;
+            text-align: center;
+            border-top: 1px solid #eaeaea;
+        }
+
+        /* Contenedor general para el contenido */
+        .content-container {
+            max-width: 1200px; /* Ajusta según el ancho máximo deseado */
+            margin: 0 auto; /* Centra el contenedor horizontalmente */
+            padding: 0 15px; /* Espaciado lateral para el contenedor */
+        }
+    </style>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="index.html" class="nav__logo">
+                 <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes" id="logo">I.E Nuestra Señora de las Mercedes
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Formación y Actividades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="propuesta.html" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> Propuesta Educativa
+                          </a>
+                       </li>
+                       <li>
+                          <a href="vidaestudiantil.html" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> Vida Estudiantil
+                          </a>
+                       </li>
+                    </ul>
+                 </li>
+                 <li><a href="logros.html" class="nav__link">Logros</a></li>
+                 <li><a href="directivos.html" class="nav__link">Directivos</a></li>
+                 <li><a href="admision.html" class="nav__link">Admision</a></li>
+                 <li><a href="#" class="nav__link">Aula Virtual</a></li>
+
+              </ul>
+           </div>
+        </nav>
+     </header>
+    <script src="assets/js/main.js"></script>
+
+    <div id="carouselExampleSlidesOnly" class="relative" data-twe-carousel-init data-twe-ride="carousel">
+        <!-- Carousel items -->
+        <div class="relative overflow-hidden after:clear-both after:block after:content-['']">
+            <!-- First item -->
+            <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none propuesta-banner" data-twe-carousel-item data-twe-carousel-active>
+                <img src="img/propuesta.jpg" class="block w-full" alt="Propuesta Educativa" />
+                <!-- Text overlay -->
+                <div class="carousel-caption">
+                    <h1>Propuesta Educativa</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="content-container">
+        <!-- <p>
+            En nuestra institución, nos comprometemos a ofrecer una educación integral que prepare a nuestros estudiantes para enfrentar los desafíos del futuro con confianza y habilidad. Nuestra propuesta académica está diseñada para proporcionar un enfoque multidisciplinario y actualizado, enfocado en la excelencia académica y el desarrollo personal. Creemos en la importancia de una formación sólida en áreas clave como la ciencia, la tecnología, y los valores fundamentales, lo que garantiza que nuestros estudiantes no solo adquieran conocimientos técnicos, sino también las habilidades y principios necesarios para sobresalir en el mundo moderno. Explora cómo nuestro enfoque educativo puede transformar tu futuro y abrir nuevas oportunidades para el éxito.
+        </p> -->
+
+        <div class="p-6">
+            <h2 class="text-2xl font-bold mb-6">Nuestros Cursos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="card">
+                    <a href="#!">
+                        <img class="rounded-t-lg" src="img/matematica.jpg" alt="Matemática" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Matemática</h5>
+                        <p class="mb-4 text-base">Aritmética, Álgebra, Geometría, Trigonometría y Razonamiento Matemático.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <a href="#!">
+                        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Comunicación" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Comunicación</h5>
+                        <p class="mb-4 text-base">Lenguaje, Literatura, Razonamiento Verbal y Plan Lector.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <a href="#!">
+                        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Ciencias Sociales" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Ciencias Sociales</h5>
+                        <p class="mb-4 text-base">Historia del Perú, Historia Universal, Geografía, Economía, Desarrollo Personal y Ciudadanía Cívica.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <a href="#!">
+                        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Ciencia y Tecnología" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Ciencia y Tecnología</h5>
+                        <p class="mb-4 text-base">Física, Química y Biología.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <a href="#!">
+                        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Inglés" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Inglés</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="card">
+                    <a href="#!">
+                        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Educación Física" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Educación Física</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="card">
+                    <a href="#!">
+                        <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Computación" />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Computación</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-6">
+         <h2 class="text-2xl font-bold mb-6">Talleres extracurriculares</h2>
+         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+             <!-- Card 1 -->
+             <div class="card">
+                 <a href="#!">
+                     <img class="rounded-t-lg" src="img/matematica.jpg" alt="Taller de manualidades" />
+                 </a>
+                 <div class="card-body">
+                     <h5 class="mb-2 text-xl font-medium leading-tight">Taller de manualidades</h5>
+                     <p class="mb-4 text-base">Aritmética, Álgebra, Geometría, Trigonometría y Razonamiento Matemático.</p>
+                 </div>
+                 <div class="card-footer">
+                     <small>Last updated 3 mins ago</small>
+                 </div>
+             </div>
+
+             <!-- Card 2 -->
+             <div class="card">
+                 <a href="#!">
+                     <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Taller de cosmetología" />
+                 </a>
+                 <div class="card-body">
+                     <h5 class="mb-2 text-xl font-medium leading-tight">Taller de cosmetología</h5>
+                     <p class="mb-4 text-base">Lenguaje, Literatura, Razonamiento Verbal y Plan Lector.</p>
+                 </div>
+                 <div class="card-footer">
+                     <small>Last updated 3 mins ago</small>
+                 </div>
+             </div>
+             <!-- Card 3 -->
+             <div class="card">
+                 <a href="#!">
+                     <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Taller de computación" />
+                 </a>
+                 <div class="card-body">
+                     <h5 class="mb-2 text-xl font-medium leading-tight">Taller de computación</h5>
+                     <p class="mb-4 text-base">Historia del Perú, Historia Universal, Geografía, Economía, Desarrollo Personal y Ciudadanía Cívica.</p>
+                 </div>
+                 <div class="card-footer">
+                     <small>Last updated 3 mins ago</small>
+                 </div>
+             </div>
+             <!-- Card 4 -->
+             <div class="card">
+                 <a href="#!">
+                     <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp" alt="Taller de cocina" />
+                 </a>
+                 <div class="card-body">
+                     <h5 class="mb-2 text-xl font-medium leading-tight">Taller de cocina</h5>
+                     <p class="mb-4 text-base">Física, Química y Biología.</p>
+                 </div>
+                 <div class="card-footer">
+                     <small>Last updated 3 mins ago</small>
+                 </div>
+             </div>
+         </div>
+     </div>
+    </section>
+    <footer>
+        <div class="containerfooter">
+            <div class="row">
+                <div class="col" id="company">
+                    <img src="img/mercedessinfondo.png" alt="logo">
+                    I.E. Nuestra Señora de las Mercedes
+                    <p>
+                        Ofrecemos un modelo de enseñanza humanista que prioriza la formación integral de la persona, 
+                        y el desarrollo de su capacidad crítica y de libre expresión, en un clima de calidez y confianza.
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+  
+                <div class="col" id="services">
+                    <a href="nosotros.html"><h4>Nosotros</h4></a>
+                    <a href="nosotros.html">Misión y visión</a>
+                    <a href="nosotros.html">Festividades y tradiciones</a>
+                    <a href="directivos.html">Directivos</a>
+                    <a href="vidaestudiantil.html">Infraestructura</a>
+                </div>
+  
+                <div class="col" id="Useful-links">
+                    <h4><b>Formación y Actividades</b></h4><br>
+                    <a href="propuesta.html">Propuesta Educativa</a>
+                    <a href="vidaestudiantil.html">Vida Estudiantil</a>
+                    <a href="nosotros.html">Misión y visión</a>
+                </div>
+  
+                <div class="col" id="Contact"><br><br><br>
+                    <h4>Contactos</h4><br>
+                    <div class="contact-details">
+                        <i class="fa fa-location"></i>
+                        <p>Dirección: Av. José Matias Manzanilla, Ica 11002</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa fa-phone"></i>
+                        <p>Teléfono: 056 731412</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa fa-paper-plane"></i>
+                        <p>Email:mercedes@hotmail.com</p>
+                    </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

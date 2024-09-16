@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="https://cdn-hoverme.netlify.app/hoverme/1.0.4/hoverme.css">
+      <link rel="stylesheet" href="hovermaster/css/hover.css">
+      <link href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" rel="stylesheet">
+      <title>I.E. Nuestra Señora de las Mercedes</title>
+   </head>
+   <style>
+      /* Asegúrate de que el contenedor del texto esté en posición absoluta para poder alinearlo */
+      .propuesta-banner {
+         position: relative; /* Asegura que el texto se posicione en relación a este contenedor */
+         width: 100%; /* Ajusta al tamaño del contenedor o de la imagen */
+         height: 400px; /* Ajusta al tamaño del contenedor o de la imagen */
+      }
+
+      .carousel-caption {
+         position: absolute;
+         top: 50%; /* Centra verticalmente */
+         left: 50%; /* Centra horizontalmente */
+         transform: translate(-50%, -50%); /* Ajusta la posición para que el centro del texto esté en el centro de la imagen */
+         padding: 20px; /* Espaciado alrededor del texto */
+         color: white; /* Color del texto */
+         text-align: center; /* Centra el texto dentro del contenedor */
+         box-sizing: border-box; /* Incluye el padding en el ancho total */
+         width: 100%; /* O ajusta a un ancho específico si es necesario */
+         /* Opcional: Añadir fondo semitransparente para mejor legibilidad */
+      }
+
+
+  </style>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                  <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes" id="logo">I.E Nuestra Señora de las Mercedes
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Formación y Actividades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="propuesta.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Propuesta Educativa
+                           </a>
+                        </li>
+                        <li>
+                           <a href="vidaestudiantil.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Vida Estudiantil
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Aula virtual
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="logros.html" class="nav__link">Logros</a></li>
+                  <li><a href="directivos.html" class="nav__link">Directivos</a></li>
+                  <li><a href="admision.html" class="nav__link">Admision</a></li>
+                  <li><a href="contactos.html" class="nav__link">Contactos</a></li>
+
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <script src="assets/js/main.js"></script>
+
+      <div id="carouselExampleSlidesOnly" class="relative" data-twe-carousel-init data-twe-ride="carousel">
+         <!-- Carousel items -->
+         <div class="relative overflow-hidden after:clear-both after:block after:content-['']">
+             <!-- First item -->
+             <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none propuesta-banner" data-twe-carousel-item data-twe-carousel-active>
+                 <img src="img/contactos.jpg" class="block w-full" alt="Propuesta Academica" />
+                 <!-- Text overlay -->
+                 <div class="carousel-caption">
+                     <h1>Contactos</h1>
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+
+     
+     </div>
+   </body>
+</html>

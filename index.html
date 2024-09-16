@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="https://cdn-hoverme.netlify.app/hoverme/1.0.4/hoverme.css">
+      <link rel="stylesheet" href="hovermaster/css/hover.css">
+      <link href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="proyecto/estilos2.css">
+      <title>I.E. Nuestra Señora de las Mercedes</title>
+
+
+   </head>
+
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                  <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes" id="logo">I.E Nuestra Señora de las Mercedes
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Formación y Actividades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="propuesta.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Propuesta Educativa
+                           </a>
+                        </li>
+                        <li>
+                           <a href="vidaestudiantil.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Vida Estudiantil
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="logros.html" class="nav__link">Logros</a></li>
+                  <li><a href="directivos.html" class="nav__link">Directivos</a></li>
+                  <li><a href="admision.html" class="nav__link">Admision</a></li>
+                  <li><a href="#" class="nav__link">Aula Virtual</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      
+      <!-- redes sociales fijo -->
+      <div>
+         <ul class="redes">
+            <a target="_blank"   href="https://www.facebook.com/profile.php?id=100095328154259&mibextid=LQQJ4d"><li class="icon facebook" class="iconos ">
+                <span><i class="fab fa-facebook-f"></i></span>
+            </li>
+            </a>
+            <li class="icon twitter " class="iconos ">
+                <span><i class="fab fa-twitter"></i></span>
+            </li>
+            <li class="icon instagram" class="iconos ">
+                <span><i class="fab fa-instagram"></i></span>
+            </li>
+      </div>
+
+      <!-- carrusel -->
+      <div
+      id="carouselExampleCaptions"
+      class="relative"
+      data-twe-carousel-init
+      data-twe-ride="carousel">
+      <!--Carousel indicators-->
+      <div
+        class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+        data-twe-carousel-indicators>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="0"
+          data-twe-carousel-active
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-current="true"
+          aria-label="Slide 1"></button>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="1"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 2"></button>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="2"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 3"></button>
+      </div>
+    
+      <!--Carousel items-->
+      <div
+        class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+        <!--First item-->
+        <div
+          class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-active
+          data-twe-carousel-item
+          style="backface-visibility: hidden">
+          <img
+            src="img/Carrusel1.jpg"
+            class="block w-full"
+            alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block contenido-carrusel">
+            <p class="text-xl hvr-grow">¡Dios, patria, ciencia y tecnología!</p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+        <!--Second item-->
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-item
+          style="backface-visibility: hidden">
+          <img
+            src="img/Carrusel2.jpg"
+            class="block w-full"
+            alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block contenido-carrusel">
+            <p class="text-xl hvr-grow">¡Dios, patria, ciencia y tecnología!</p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+        <!--Third item-->
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-item
+          style="backface-visibility: hidden">
+          <img
+            src="img/Carrusel3.jpg"
+            class="block w-full"
+            alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block contenido-carrusel">
+            <p class="text-xl hvr-grow">¡Dios, patria, ciencia y tecnología!</p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <!--Carousel controls - prev item-->
+      <button
+        class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button"
+        data-twe-target="#carouselExampleCaptions"
+        data-twe-slide="prev">
+        <span class="inline-block h-8 w-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Previous</span
+        >
+      </button>
+      <!--Carousel controls - next item-->
+      <button
+        class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button"
+        data-twe-target="#carouselExampleCaptions"
+        data-twe-slide="next">
+        <span class="inline-block h-8 w-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Next</span
+        >
+      </button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/js/tw-elements.umd.min.js"></script>
+    
+
+    <section>
+      <br><br>
+      <div class="main">
+          <img src="img/IMG_9396.jpg" alt="Imagen">
+          <div class="all-text">
+              <h1>Bienvenido(a)</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia deleniti facilis aliquid totam repudiandae earum ea quam recusandae deserunt aliquam. Omnis saepe eligendi aliquam sed iste enim, asperiores error minus!</p>
+              <div class="btn">
+                  <button type="button">Más sobre nosotros <i class="fa-solid fa-up-right-from-square"></i></button>
+              </div>
+          </div>
+      </div>
+      <br><br>
+  </section>
+  
+  
+    
+      <div class="contenedor">
+
+         <section class="section1">
+             <div class="contenedorimagen">
+                <img src="img/vestidura.jpg" alt="" class="hvr-grow">
+             </div>
+     
+             <div class="section1-1 e1">
+                 
+                 <div class="infosection1 i1 e1">
+                     <i class="fa-brands fa-threads"></i>
+                     <div class="infosection1-contenido">
+     
+                         <h3>Taller de industria del vestido</h3>
+                         <p>Diseño, confección y producción de prendas. Ideal para futuros diseñadores o emprendedores en moda.</p>
+                         <a href="#" class="vermas">Vér mas</a>
+                     </div>
+                 </div>
+             </div>
+             
+         </section>
+         <section class="section1">
+             <div class="contenedorimagen">
+
+                <img src="img/alimentaria.jpg" alt="" class="hvr-grow">
+             </div>
+     
+             <div class="section1-1 e2">
+                 
+                 <div class="infosection1 i2 e2">
+                     <i class="fa-solid fa-bowl-food"></i>
+                     <div class="infosection1-contenido">
+     
+                         <h3>Alimentaria</h3>
+                         <p>Técnicas culinarias, seguridad alimentaria y nutrición. Perfecto para aspirantes a chefs y entusiastas de la cocina.</p>
+                         <a href="#" class="vermas">Vér mas</a>
+                     </div>
+                 </div>
+             </div>
+             
+         </section>
+         <section class="section1">
+             <div class="contenedorimagen">
+                <img src="img/cosmetologia.jpg" alt="" class="hvr-grow">
+             </div>
+     
+             <div class="section1-1 e3">
+                 
+                 <div class="infosection1 e3">
+                     <i class="fa-solid fa-scissors"></i>
+                     <div class="infosection1-contenido">
+     
+                         <h3>Cosmetología</h3>
+                         <p>Hhabilidades en maquillaje, cuidado de la piel y tratamientos estéticos. Ideal para quienes buscan una carrera en belleza y estética.</p>
+                         <a href="#" class="vermas">Vér mas</a>
+                     </div>
+                 </div>
+             </div>
+             
+         </section>
+     </div>
+     
+     <section class="contador">
+         <div class="wrapper">
+            <div class="container-contador">
+               <i class="fa-solid fa-school"></i>
+               <span class="num" data-val="100">000</span>
+               <span class="text">Aulas</span>
+            </div>
+            <div class="container-contador">
+               <i class="fa-solid fa-chalkboard-user"></i>
+               <span class="num" data-val="80">000</span>
+               <span class="text">Docentes</span>
+            </div>
+            <div class="container-contador">
+               <i class="fa-solid fa-user"></i>
+               <span class="num" data-val="2000">000</span>
+               <span class="text">Estudiantes</span>
+            </div>
+            <div class="container-contador">
+               <i class="fa-solid fa-face-smile"></i>
+               <span class="num" data-val="500">000</span>
+               <span class="text">Cachimbos</span>
+            </div>
+         </div>
+      </section>
+      <script src="contador.js"></script>
+
+   </body>
+   <footer>
+      <div class="containerfooter">
+          <div class="row">
+              <div class="col" id="company">
+                  <img src="img/mercedessinfondo.png" alt="logo">
+                  I.E. Nuestra Señora de las Mercedes
+                  <p>
+                      Ofrecemos un modelo de enseñanza humanista que prioriza la formación integral de la persona, 
+                      y el desarrollo de su capacidad crítica y de libre expresión, en un clima de calidez y confianza.
+                  </p>
+                  <div class="social">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+
+              <div class="col" id="services">
+                  <a href="nosotros.html"><h4>Nosotros</h4></a>
+                  <a href="nosotros.html">Misión y visión</a>
+                  <a href="nosotros.html">Festividades y tradiciones</a>
+                  <a href="directivos.html">Directivos</a>
+                  <a href="vidaestudiantil.html">Infraestructura</a>
+              </div>
+
+              <div class="col" id="Useful-links">
+                  <h4><b>Formación y Actividades</b></h4><br>
+                  <a href="propuesta.html">Propuesta Educativa</a>
+                  <a href="vidaestudiantil.html">Vida Estudiantil</a>
+                  <a href="nosotros.html">Misión y visión</a>
+              </div>
+
+              <div class="col" id="Contact"><br><br><br>
+                  <h4>Contactos</h4><br>
+                  <div class="contact-details">
+                      <i class="fa fa-location"></i>
+                      <p>Dirección: Av. José Matias Manzanilla, Ica 11002</p>
+                  </div>
+                  <div class="contact-details">
+                      <i class="fa fa-phone"></i>
+                      <p>Teléfono: 056 731412</p>
+                  </div>
+                  <div class="contact-details">
+                      <i class="fa fa-paper-plane"></i>
+                      <p>Email:mercedes@hotmail.com</p>
+                  </div>
+          </div>
+      </div>
+  </footer>
+</html>

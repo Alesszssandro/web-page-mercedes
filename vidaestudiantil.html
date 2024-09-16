@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <link rel="stylesheet" href="estilos.css">
+   <link rel="stylesheet" href="https://cdn-hoverme.netlify.app/hoverme/1.0.4/hoverme.css">
+   <link rel="stylesheet" href="hovermaster/css/hover.css">
+   <link href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" rel="stylesheet">
+   <title>I.E. Nuestra Señora de las Mercedes</title>
+   <style>
+      .propuesta-banner {
+         position: relative;
+         width: 100%;
+         height: 400px;
+      }
+
+      .carousel-caption {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         padding: 20px;
+         color: white;
+         text-align: center;
+         box-sizing: border-box;
+         width: 100%;
+      }
+
+      
+   </style>
+</head>
+<body>
+   <!--=============== HEADER ===============-->
+   <header class="header">
+      <nav class="nav container">
+         <div class="nav__data">
+            <a href="index.html" class="nav__logo">
+               <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes" id="logo">I.E Nuestra Señora de las Mercedes
+            </a>
+            
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+         </div>
+
+         <!--=============== NAV MENU ===============-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Formación y Actividades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="propuesta.html" class="dropdown__link">
+                           <i class="ri-arrow-up-down-line"></i> Propuesta Educativa
+                        </a>
+                     </li>
+                     <li>
+                        <a href="vidaestudiantil.html" class="dropdown__link">
+                           <i class="ri-arrow-up-down-line"></i> Vida Estudiantil
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li><a href="logros.html" class="nav__link">Logros</a></li>
+               <li><a href="directivos.html" class="nav__link">Directivos</a></li>
+               <li><a href="admision.html" class="nav__link">Admision</a></li>
+               <li><a href="#" class="nav__link">Aula Virtual</a></li>
+
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <script src="assets/js/main.js"></script>
+
+   <div id="carouselExampleSlidesOnly" class="relative" data-twe-carousel-init data-twe-ride="carousel">
+      <!-- Carousel items -->
+      <div class="relative overflow-hidden after:clear-both after:block after:content-['']">
+         <!-- First item -->
+         <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none propuesta-banner" data-twe-carousel-item data-twe-carousel-active>
+            <img src="img/vidaestudiantil.jpg" class="block w-full" alt="Propuesta Academica" />
+            <!-- Text overlay -->
+            <div class="carousel-caption">
+               <h1>Vida Estudiantíl</h1>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   <div class="main-content">
+      <p>La vida estudiantil en nuestra institución es vibrante y enriquecedora, ofreciendo a nuestros alumnos una experiencia educativa completa. Más allá del aula, fomentamos una cultura de participación y desarrollo personal a través de una variedad de actividades extracurriculares, clubes y eventos. Nuestros estudiantes tienen la oportunidad de explorar sus pasiones, desarrollar habilidades de liderazgo y formar conexiones duraderas, mientras disfrutan de un ambiente inclusivo y estimulante. Descubre cómo nuestras actividades y programas complementan la formación académica y promueven un crecimiento integral en cada etapa de su vida estudiantil.</p>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Aula de computación</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <div class="vidaestudiantil-info">
+            <h1>Aula de innovación</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Laboratorio de química</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <div class="vidaestudiantil-info">
+            <h1>Laboratorio de física</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Laboratorio de biología</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <div class="vidaestudiantil-info">
+            <h1>Taller de industria alimentaria</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Taller de cosmetología</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <div class="vidaestudiantil-info">
+            <h1>Taller de industria del vestido</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Espacio dental</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <div class="vidaestudiantil-info">
+            <h1>Subdirecciones</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Dirección</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <div class="vidaestudiantil-info">
+            <h1>	Auditorio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Radio mercedina</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <div class="vidaestudiantil-info">
+            <h1>Kioscos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <div class="vidaestudiantil-contenedor">
+         <div class="vidaestudiantil-info">
+            <h1>Psicología</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tenetur repudiandae ratione tempore veritatis, illo quae dolor labore numquam repellendus, alias rem aliquid laborum perspiciatis nemo impedit eaque necessitatibus quasi fugit architecto sed ut omnis velit provident. Veniam ipsa, corporis illo consectetur officia et nulla iure! Cum repellendus unde sed.</p>
+         </div>
+         <div class="vidaestudiantil-galeria">
+            <img src="img/Carrusel1.jpg" alt="Imagen 1" class="zoomable">
+            <img src="img/Carrusel2.jpg" alt="Imagen 2" class="zoomable">
+            <img src="img/Carrusel3.jpg" alt="Imagen 3" class="zoomable">
+         </div>
+         <!-- Lightbox para zoom -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+         </div>
+      </div>
+
+      <!-- Repite el bloque .vidaestudiantil-contenedor para las otras secciones -->
+      <!-- ... -->
+   </div>
+   <footer>
+      <div class="containerfooter">
+          <div class="row">
+              <div class="col" id="company">
+                  <img src="img/mercedessinfondo.png" alt="logo">
+                  I.E. Nuestra Señora de las Mercedes
+                  <p>
+                      Ofrecemos un modelo de enseñanza humanista que prioriza la formación integral de la persona, 
+                      y el desarrollo de su capacidad crítica y de libre expresión, en un clima de calidez y confianza.
+                  </p>
+                  <div class="social">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+
+              <div class="col" id="services">
+                  <a href="nosotros.html"><h4>Nosotros</h4></a>
+                  <a href="nosotros.html">Misión y visión</a>
+                  <a href="nosotros.html">Festividades y tradiciones</a>
+                  <a href="directivos.html">Directivos</a>
+                  <a href="vidaestudiantil.html">Infraestructura</a>
+              </div>
+
+              <div class="col" id="Useful-links">
+                  <h4><b>Formación y Actividades</b></h4><br>
+                  <a href="propuesta.html">Propuesta Educativa</a>
+                  <a href="vidaestudiantil.html">Vida Estudiantil</a>
+                  <a href="nosotros.html">Misión y visión</a>
+              </div>
+
+              <div class="col" id="Contact"><br><br><br>
+                  <h4>Contactos</h4><br>
+                  <div class="contact-details">
+                      <i class="fa fa-location"></i>
+                      <p>Dirección: Av. José Matias Manzanilla, Ica 11002</p>
+                  </div>
+                  <div class="contact-details">
+                      <i class="fa fa-phone"></i>
+                      <p>Teléfono: 056 731412</p>
+                  </div>
+                  <div class="contact-details">
+                      <i class="fa fa-paper-plane"></i>
+                      <p>Email:mercedes@hotmail.com</p>
+                  </div>
+          </div>
+      </div>
+  </footer>
+   
+</body>
+<script src="lighbox.js"></script>
+</html>

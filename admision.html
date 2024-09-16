@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="https://cdn-hoverme.netlify.app/hoverme/1.0.4/hoverme.css">
+      <link rel="stylesheet" href="hovermaster/css/hover.css">
+      <link href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" rel="stylesheet">
+      <title>I.E. Nuestra Señora de las Mercedes</title>
+   </head>
+   <style>
+      /* Asegúrate de que el contenedor del texto esté en posición absoluta para poder alinearlo */
+      .propuesta-banner {
+         position: relative; /* Asegura que el texto se posicione en relación a este contenedor */
+         width: 100%; /* Ajusta al tamaño del contenedor o de la imagen */
+         height: 400px; /* Ajusta al tamaño del contenedor o de la imagen */
+      }
+
+      .carousel-caption {
+         position: absolute;
+         top: 50%; /* Centra verticalmente */
+         left: 50%; /* Centra horizontalmente */
+         transform: translate(-50%, -50%); /* Ajusta la posición para que el centro del texto esté en el centro de la imagen */
+         padding: 20px; /* Espaciado alrededor del texto */
+         color: white; /* Color del texto */
+         text-align: center; /* Centra el texto dentro del contenedor */
+         box-sizing: border-box; /* Incluye el padding en el ancho total */
+         width: 100%; /* O ajusta a un ancho específico si es necesario */
+         /* Opcional: Añadir fondo semitransparente para mejor legibilidad */
+      }
+
+
+  </style>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="index.html" class="nav__logo">
+                  <img src="img/mercedessinfondo.png" alt="I.E Nuestra Señora de las Mercedes" id="logo">I.E Nuestra Señora de las Mercedes
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Formación y Actividades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="propuesta.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Propuesta Educativa
+                           </a>
+                        </li>
+                        <li>
+                           <a href="vidaestudiantil.html" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Vida Estudiantil
+                           </a>
+                        </li>
+
+                     </ul>
+                  </li>
+                  <li><a href="logros.html" class="nav__link">Logros</a></li>
+                  <li><a href="directivos.html" class="nav__link">Directivos</a></li>
+                  <li><a href="admision.html" class="nav__link">Admision</a></li>
+                  <li><a href="#" class="nav__link">Aula Virtual</a></li>
+
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <script src="assets/js/main.js"></script>
+
+      <div id="carouselExampleSlidesOnly" class="relative" data-twe-carousel-init data-twe-ride="carousel">
+         <!-- Carousel items -->
+         <div class="relative overflow-hidden after:clear-both after:block after:content-['']">
+             <!-- First item -->
+             <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none propuesta-banner" data-twe-carousel-item data-twe-carousel-active>
+                 <img src="img/admision.jpg" class="block w-full" alt="Propuesta Academica" />
+                 <!-- Text overlay -->
+                 <div class="carousel-caption">
+                     <h1>Admisión</h1>
+                 </div>
+             </div>
+         </div>
+     </div>
+         <div class="main-content">
+            <section class="admission-process">
+               <h2 class="section-title">PROCESO DE ADMISIÓN</h2>
+               <h3 class="subsection-title">PARA AÑO ESCOLAR 2025</h3>
+         
+               <p>El pago de matrícula y pensión pueden efectuarse mediante código de alumno en los bancos SCOTIABANK o BCP (va a depender de la sede a la que pertenezca) o por Pago Efectivo usando código CIP desde cualquier entidad bancaria como:</p>
+               
+               <ul class="bank-list">
+                  <li>BBVA</li>
+                  <li>BCP</li>
+                  <li>INTERBANK</li>
+                  <li>SCOTIABANK</li>
+                  <li>BANBIF</li>
+               </ul>
+         
+               <p>Pudiendo usar:</p>
+               <ul class="payment-methods">
+                  <li><strong>Banca por Internet y móvil:</strong> pagos desde tu banca móvil o banca por internet.</li>
+                  <li><strong>Agencias y Agentes:</strong> depósitos en efectivo en agencias, agentes o bodegas más cercanas a nivel nacional.</li>
+               </ul>
+         
+               <h3 class="subsection-title">COSTOS DE MATRÍCULA</h3>
+         
+               <ul class="tuition-costs">
+                  <li><strong>PAMER AREQUIPA – AREQUIPA:</strong> S/580</li>
+                  <li><strong>PAMER SALAMANCA ABETOS – ATE:</strong> S/680</li>
+                  <li><strong>PAMER SALAMANCA PARACAS – ATE:</strong> S/680</li>
+                  <li><strong>PAMER CARABAYLLO:</strong> S/570</li>
+                  <li><strong>PAMER ICA – ICA:</strong> S/580</li>
+                  <li><strong>PAMER REPUBLICA DE CHILE – JM:</strong> S/730</li>
+                  <li><strong>PAMER IZAGUIRRE – LOS OLIVOS:</strong> S/700</li>
+                  <li><strong>PAMER PIURA LAS ARENAS:</strong> S/680</li>
+                  <li><strong>PAMER RAZURI (PRIMARIA):</strong> S/670</li>
+                  <li><strong>PAMER RAZURI (SECUNDARIA):</strong> S/720</li>
+                  <li><strong>PAMER FAUCETT – SAN MIGUEL:</strong> S/730</li>
+                  <li><strong>PAMER LA LIBERTAD – SAN MIGUEL:</strong> S/700</li>
+                  <li><strong>PAMER LOS DURAZNOS – SJL:</strong> S/620</li>
+                  <li><strong>PAMER PROCERES – SJL:</strong> S/620</li>
+                  <li><strong>PAMER ZÁRATE- SJL:</strong> S/620</li>
+                  <li><strong>PAMER VIRTUAL – LIMA:</strong> S/375</li>
+                  <li><strong>PAMER VIRTUAL – PROVINCIAS:</strong> S/310</li>
+               </ul>
+         
+               <h3 class="subsection-title">COSTOS PENSIÓN</h3>
+               <ul class="important-notes">
+                  <li>No se aceptarán por ningún motivo cobros en efectivo en las instalaciones de la institución.</li>
+                  <li>En caso de retraso en el pago de pensiones se aplicará la máxima tasa de interés moratorio autorizada por el Banco Central de Reserva del Perú.</li>
+                  <li>La Institución Educativa no realizará aumento en el monto de las pensiones durante el año 2025, respetando el costo establecido.</li>
+                  <li>La Institución Educativa procederá a retener los certificados de estudios correspondientes a los grados de estudios no pagados.</li>
+               </ul>
+         
+               <p>La descripción detallada de cronograma y pasos a seguir en el proceso de matrícula 2025, se darán a conocer en el <strong>BOLETÍN INFORMATIVO – AÑO ESCOLAR 2025</strong> que se entregará a los padres de familia al culminar el presente año escolar.</p>
+         </section>
+     </div>
+     <footer>
+      <div class="containerfooter">
+          <div class="row">
+              <div class="col" id="company">
+                  <img src="img/mercedessinfondo.png" alt="logo">
+                  I.E. Nuestra Señora de las Mercedes
+                  <p>
+                      Ofrecemos un modelo de enseñanza humanista que prioriza la formación integral de la persona, 
+                      y el desarrollo de su capacidad crítica y de libre expresión, en un clima de calidez y confianza.
+                  </p>
+                  <div class="social">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+
+              <div class="col" id="services">
+                  <a href="nosotros.html"><h4>Nosotros</h4></a>
+                  <a href="nosotros.html">Misión y visión</a>
+                  <a href="nosotros.html">Festividades y tradiciones</a>
+                  <a href="directivos.html">Directivos</a>
+                  <a href="vidaestudiantil.html">Infraestructura</a>
+              </div>
+
+              <div class="col" id="Useful-links">
+                  <h4><b>Formación y Actividades</b></h4><br>
+                  <a href="propuesta.html">Propuesta Educativa</a>
+                  <a href="vidaestudiantil.html">Vida Estudiantil</a>
+                  <a href="nosotros.html">Misión y visión</a>
+              </div>
+
+              <div class="col" id="Contact"><br><br><br>
+                  <h4>Contactos</h4><br>
+                  <div class="contact-details">
+                      <i class="fa fa-location"></i>
+                      <p>Dirección: Av. José Matias Manzanilla, Ica 11002</p>
+                  </div>
+                  <div class="contact-details">
+                      <i class="fa fa-phone"></i>
+                      <p>Teléfono: 056 731412</p>
+                  </div>
+                  <div class="contact-details">
+                      <i class="fa fa-paper-plane"></i>
+                      <p>Email:mercedes@hotmail.com</p>
+                  </div>
+          </div>
+      </div>
+  </footer>
+   </body>
+</html>
